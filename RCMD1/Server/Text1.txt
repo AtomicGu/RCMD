@@ -1,0 +1,6 @@
+想法：
+
+1.Master、Slave对象被抽象成静态的资源
+2.对Master、Slave对象进行多线程保护
+3.所有线程使用MasterPtr、SlavePtr对资源进行管理！
+4.Ptr专门用来对Master、SlavePtr进行管理！

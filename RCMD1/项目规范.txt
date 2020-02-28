@@ -1,0 +1,16 @@
+假设项目名称叫 MyPoj
+
+ 1.项目中一个cpp文件对应一个h文件
+ 2.主函数写在MyPoj.cpp中
+ 3.程序中使用的所有“跨cpp的”全局变量，统一声明在MyPoj.h中，定义在MyPoj.cpp中
+ 4.h文件中禁止使用using namespace语句
+ 5.h文件中只include接口所需的、最少的文件
+ 6.如果出现h文件相互引用的情况，要求每个h文件都声明其他h文件中的、自身通过编译所需要的、最少的内容
+ 7.程序中的class（错误类除外）统一单独写成h文件+cpp文件，命名以class_开头
+ 8.错误类统一定义在error_classes.h中，实现在error_classes.cpp中
+ 9.MyPoj.cpp中使用的与程序整体无关的函数单独写成h文件+cpp文件，使MyPoj.cpp中尽可能的简洁
+10.整体代码的版本信息写在MyPoj.h中
+11.pragma comment(lib,"xxx")统一写在MyPoj.h中，程序整体的配置都写在MyPoj.h中
+12.（接3）程序中使用的用来初始化的全局常量，统一写在MyPoj.h中
+13.程序初始化的代码，写在MyPoj.cpp中
+14.接9，main函数中的代码要能体现出程序的运行逻辑，细节部分外包到外部的函数解决

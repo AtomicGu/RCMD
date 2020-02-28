@@ -1,0 +1,73 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.489
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V1.0", "V1.0", "{58EBF436-240D-4C3A-BFBA-114E081C62C6}"
+	ProjectSection(SolutionItems) = preProject
+		V1.0\filereg_g\filereg_g.cpp = V1.0\filereg_g\filereg_g.cpp
+		V1.0\filereg_h\filereg_h.cpp = V1.0\filereg_h\filereg_h.cpp
+		V1.0\filereg_s\filereg_s.cpp = V1.0\filereg_s\filereg_s.cpp
+		V1.0\filereg_s\guest.cpp = V1.0\filereg_s\guest.cpp
+		V1.0\filereg_s\guest.h = V1.0\filereg_s\guest.h
+		V1.0\filereg_h\h-s指令表.txt = V1.0\filereg_h\h-s指令表.txt
+		V1.0\filereg_s\host.cpp = V1.0\filereg_s\host.cpp
+		V1.0\filereg_s\host.h = V1.0\filereg_s\host.h
+		V1.0\filereg_h\pch.cpp = V1.0\filereg_h\pch.cpp
+		V1.0\filereg_s\pch.cpp = V1.0\filereg_s\pch.cpp
+		V1.0\filereg_h\pch.h = V1.0\filereg_h\pch.h
+		V1.0\filereg_s\pch.h = V1.0\filereg_s\pch.h
+		V1.0\filereg_s\s-g指令表.txt = V1.0\filereg_s\s-g指令表.txt
+		V1.0\filereg_g\tcp_client.cpp = V1.0\filereg_g\tcp_client.cpp
+		V1.0\filereg_g\tcp_client.h = V1.0\filereg_g\tcp_client.h
+		V1.0\filereg_h\错误代码表.txt = V1.0\filereg_h\错误代码表.txt
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V2.0", "V2.0", "{54725F77-7CA4-42F3-AB7A-5A984BCAE322}"
+	ProjectSection(SolutionItems) = preProject
+		V2.0\filereg_g\filereg_g.cpp = V2.0\filereg_g\filereg_g.cpp
+		V2.0\filereg_h\filereg_h.cpp = V2.0\filereg_h\filereg_h.cpp
+		V2.0\filereg_s\filereg_s.cpp = V2.0\filereg_s\filereg_s.cpp
+		V2.0\filereg_g\G2S_Connection.cpp = V2.0\filereg_g\G2S_Connection.cpp
+		V2.0\filereg_g\G2S_Connection.h = V2.0\filereg_g\G2S_Connection.h
+		V2.0\filereg_s\guest.cpp = V2.0\filereg_s\guest.cpp
+		V2.0\filereg_s\guest.h = V2.0\filereg_s\guest.h
+		V2.0\filereg_h\H2S_Connection.cpp = V2.0\filereg_h\H2S_Connection.cpp
+		V2.0\filereg_h\H2S_Connection.h = V2.0\filereg_h\H2S_Connection.h
+		V2.0\filereg_s\host.cpp = V2.0\filereg_s\host.cpp
+		V2.0\filereg_s\host.h = V2.0\filereg_s\host.h
+		V2.0\Tcp_Connection\Tcp_Connection.cpp = V2.0\Tcp_Connection\Tcp_Connection.cpp
+		V2.0\Tcp_Connection\Tcp_Connection.h = V2.0\Tcp_Connection\Tcp_Connection.h
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "V3.0", "V3.0", "{9F919050-491B-402C-B082-8B38D32E16AE}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "Test_3.0", "Test_3.0\Test_3.0.vcxproj", "{799B2CCF-4E70-48CD-97CF-F776E748312F}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{799B2CCF-4E70-48CD-97CF-F776E748312F}.Debug|x64.ActiveCfg = Debug|x64
+		{799B2CCF-4E70-48CD-97CF-F776E748312F}.Debug|x64.Build.0 = Debug|x64
+		{799B2CCF-4E70-48CD-97CF-F776E748312F}.Debug|x86.ActiveCfg = Debug|Win32
+		{799B2CCF-4E70-48CD-97CF-F776E748312F}.Debug|x86.Build.0 = Debug|Win32
+		{799B2CCF-4E70-48CD-97CF-F776E748312F}.Release|x64.ActiveCfg = Release|x64
+		{799B2CCF-4E70-48CD-97CF-F776E748312F}.Release|x64.Build.0 = Release|x64
+		{799B2CCF-4E70-48CD-97CF-F776E748312F}.Release|x86.ActiveCfg = Release|Win32
+		{799B2CCF-4E70-48CD-97CF-F776E748312F}.Release|x86.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{799B2CCF-4E70-48CD-97CF-F776E748312F} = {9F919050-491B-402C-B082-8B38D32E16AE}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {E60CDB61-579F-4B5A-92C8-30E7FC5DEA36}
+	EndGlobalSection
+EndGlobal

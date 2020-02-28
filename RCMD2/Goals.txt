@@ -1,0 +1,5 @@
+基本：
+    1. 只做：Master_W，Slave_W，Server_L
+	2. Server端代码健壮，可以长期运行
+	3. 代码符合规范
+	4. 无加密
